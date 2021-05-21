@@ -1,0 +1,25 @@
+
+<html>
+<head>
+    <title>My Conversion Assignment</title>
+</head>
+<body>
+
+<script>
+
+function convertFahrToCelcius(fahrenheit) 
+{
+  let fTemperature = fahrenheit;
+  let fToCel = (fTemperature - 32) * 5 / 9;
+let RoundedFToCel = fToCel.toFixed(4);
+  let message = fTemperature+'\xB0F is ' + RoundedFToCel + '\xB0C.';
+    console.log(message);
+} 
+
+convertFahrToCelcius(45);
+
+</script>
+</body>
+
+</html>
+
